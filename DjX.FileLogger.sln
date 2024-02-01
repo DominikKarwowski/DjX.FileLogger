@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DjX.FileLogger", "DjX.FileLogger\DjX.FileLogger.csproj", "{28E7E957-5860-41D4-B6B9-147ECF5C5287}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DjX.FileLogger.Tests", "DjX.FileLogger.Tests\DjX.FileLogger.Tests.csproj", "{45E9FCB7-10D6-4136-A3E9-F239D39BA55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{28E7E957-5860-41D4-B6B9-147ECF5C5287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28E7E957-5860-41D4-B6B9-147ECF5C5287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28E7E957-5860-41D4-B6B9-147ECF5C5287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E9FCB7-10D6-4136-A3E9-F239D39BA55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E9FCB7-10D6-4136-A3E9-F239D39BA55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E9FCB7-10D6-4136-A3E9-F239D39BA55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E9FCB7-10D6-4136-A3E9-F239D39BA55A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
