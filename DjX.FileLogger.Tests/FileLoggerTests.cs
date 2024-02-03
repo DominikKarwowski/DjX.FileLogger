@@ -1,8 +1,7 @@
-﻿using DjX.FileLogger;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using System.Text.RegularExpressions;
 
-namespace DjK.BackupTool.Core.Tests.Logger;
+namespace DjX.FileLogger.Tests;
 
 [TestFixture]
 public partial class FileLoggerTests
