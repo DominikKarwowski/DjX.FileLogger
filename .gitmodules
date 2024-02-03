@@ -1,0 +1,3 @@
+[submodule "DjX.Providers"]
+	path = DjX.Providers
+	url = https://github.com/DominikKarwowski/DjX.Providers.git
