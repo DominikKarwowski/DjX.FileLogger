@@ -11,4 +11,8 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DjX.Providers\DjX.Providers\DjX.Providers.csproj" />
+  </ItemGroup>
+
 </Project>
