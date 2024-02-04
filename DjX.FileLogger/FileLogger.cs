@@ -44,6 +44,7 @@ public sealed class FileLogger : ILogger
         }
         catch (Exception)
         {
+            config.ExecuteFallbackLogger?.Invoke();
         }
     }
 
