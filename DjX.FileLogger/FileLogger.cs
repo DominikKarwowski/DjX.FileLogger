@@ -42,9 +42,9 @@ public sealed class FileLogger : ILogger
             // TODO: implement producer-consumer pattern correctly
             Task.Run(() => WriteLogEntry(value, path, _name, logLevel, eventId.Id));
         }
-        catch (Exception)
+        catch (Exception ex)
         {
-            config.ExecuteFallbackLogger?.Invoke();
+            config.ExecuteFallbackLogger?.Invoke(ex);
         }
     }
 
