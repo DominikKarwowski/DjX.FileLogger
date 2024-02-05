@@ -7,7 +7,7 @@ namespace DjX.FileLogger;
 
 public static class FileLoggerExtensions
 {
-    public static ILoggingBuilder AddDjXvFileLogger(this ILoggingBuilder builder)
+    public static ILoggingBuilder AddDjXFileLogger(this ILoggingBuilder builder)
     {
         builder.AddConfiguration();
 
@@ -20,10 +20,10 @@ public static class FileLoggerExtensions
         return builder;
     }
 
-    public static ILoggingBuilder AddDjXvFileLogger(this ILoggingBuilder builder,
+    public static ILoggingBuilder AddDjXFileLogger(this ILoggingBuilder builder,
         Action<FileLoggerConfiguration> configure)
     {
-        builder.AddDjXvFileLogger();
+        builder.AddDjXFileLogger();
         builder.Services.Configure(configure);
 
         return builder;
